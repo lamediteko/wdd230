@@ -1,0 +1,14 @@
+@media (min-width: 32.5em) {
+    header, footer {
+        background-color: darkcyan;
+    }
+
+    .content {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    a {
+        color: cornflowerblue;
+    }
+}

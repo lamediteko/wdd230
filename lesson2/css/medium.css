@@ -1,0 +1,43 @@
+@media (min-width: 510px) {
+    .content {
+        max-width: 98vw;
+        margin: 1vw;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 46vw 46vw;
+        grid-template-rows: 1fr auto;
+        grid-gap: 2vw;
+    }
+
+    main div img {
+        margin: 1.75vw;
+    }
+
+    .whitespace {
+        grid-column: 1/2;
+    }
+
+    .whitespace img {
+        max-width: 42vw;
+    }
+
+    .contrast {
+        grid-column: 2/3;
+    }
+
+    .contrast img {
+        max-width: 42vw;
+    }
+
+    .rule-of-thirds {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .rule-of-thirds img {
+        max-width: 86vw;
+        margin: 3.5vw;
+    }
+}
