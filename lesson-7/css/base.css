@@ -1,0 +1,13 @@
+.flexme {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexme img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+.flexme img {
+    filter: blur(0em);
+    transition: filter 2s;
+}
