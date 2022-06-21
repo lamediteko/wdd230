@@ -1,0 +1,45 @@
+@media (min-width: 1000px) {
+    .content {
+        max-width: 98vw;
+        margin: 1vw;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 31vw 31vw 31vw;
+        grid-template-rows: 1fr;
+        grid-gap: 1vw;
+    }
+
+    main div img {
+        max-width: 28vw;
+    }
+
+    .whitespace {
+        grid-column: 1/2;
+    }
+
+    .whitespace img {
+        max-width: 28vw;
+        margin: 1.5vw;
+    }
+
+    .contrast {
+        grid-column: 2/3;
+    }
+
+    .contrast img {
+        max-width: 28vw;
+        margin: 1.5vw;
+    }
+
+    .rule-of-thirds {
+        grid-column: 3/4;
+        grid-row: 1/-1;
+    }
+
+    .rule-of-thirds img {
+        max-width: 28vw;
+        margin: 1.5vw;
+    }
+}
