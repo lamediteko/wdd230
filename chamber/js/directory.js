@@ -5,7 +5,7 @@ const listDisplay = document.createElement("div")
 listDisplay.setAttribute('class', "list-display")
 directory.appendChild(cardDisplay)
 directory.appendChild(listDisplay)
-const requestURL = "#"
+const requestURL = "https://lamediteko.github.io/wdd230/chamber/data/data.json"
 
 fetch(requestURL)
     .then(function (response) {
