@@ -4,11 +4,11 @@
 
 :root {
     --heading-font: "Anybody";
-    --primary-color: #fbf7ef;
-    --secondary-color: #3b4367;
-    --accent1-color: #7e7261;
-    --accent2-color: #fdd8c5;
-    --accent3-color: #51372a;
+    --primary-color: #E8EBE4;
+    --secondary-color: #999AC6;
+    --accent1-color: #B8BACF;
+    --accent2-color: #D2D5DD;
+    --accent3-color: #798071;
 }
 body {
     background: var(--primary-color);
