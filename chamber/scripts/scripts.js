@@ -5,7 +5,7 @@ menubutton.addEventListener('click', () => {navi.classList.toggle('responsive')}
 
 let currentDateAndTime = new Date();
 let currentYear = currentDateAndTime.getFullYear();
-document.querySelector("#copyright").innerHTML = "&copy; " + currentYear + " - College Station Chamber";
+document.querySelector("#copyright").innerHTML = "&copy; " + currentYear + " - Botswana Chamber";
 
 let lastModifiedFull = new Date(currentDateAndTime);
 let lastModified = `${lastModifiedFull.getMonth() + 1}/${lastModifiedFull.getDate()}/${currentYear} ${lastModifiedFull.getHours()}:${lastModifiedFull.getMinutes()}:${lastModifiedFull.getSeconds()}`;  
