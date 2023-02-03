@@ -4,7 +4,7 @@ const currentDate = new Date();
 const currentMS = currentDate.getTime();
 
 // You can use this to test this script!
-// const testDate = new Date("31 Jan 2022");
+// const testDate = new Date("31 Jan 2023");
 // let ms = testDate.getTime();
 // storage.setItem('lastVisitTime', ms);
 

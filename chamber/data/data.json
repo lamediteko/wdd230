@@ -1,0 +1,31 @@
+{
+    "businesses": [
+      
+      {
+        "name": "The Three Dikgosi",
+        "address": "4th Commercial, Gaborone, South-East ",
+        "website": "https://www.atlasobscura.com/places/the-three-dikgosi-gaborone-botswana",
+        "logo": "images/dikgosi.jpeg"
+      },
+      {
+        "name": "ITOWERS",
+        "address": "Tower South, Gaborone, South-East ",
+        "phonenum": "+267 397 5557",
+        "website": "https://room50two.com/contact/",
+        "logo": "images/CBD ITOWERS.jpeg"
+      },
+      {
+        "name": "Okavango",
+        "address": "Kalahari Desert",
+        "website": "https://www.botswanatourism.co.bw/explore/okavango-delta",
+        "logo": "images/okavango.jpg"
+      },
+
+
+      {
+        "name": "Mokolodi",
+        "address": "Kalahari Reserve",
+        "website": "https://www.botswanatourism.co.bw/explore/mokolodi",
+        "logo": "images/1mokolodi.jpg"
+      }
+    ]}

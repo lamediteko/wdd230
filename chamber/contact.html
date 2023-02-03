@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/favicon.ico">
+        <meta property="og:url" content="https://lamediteko.github.io/wdd230/">
+        <meta property="og:title" content="WDD 230 Course Activity Portal">
+        <meta property="og:type" content="website">
+        <title>Botswana Chamber | Contact Us</title>
+    </head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Botswana Chamber Logo" class="logo">
+        <h1>Botswana Chamber of Commerce</h1>
+        <h2 id="current-date"></h2>
+        <nav>
+            <ul class="navigation">
+                <li><a class="menu" href="#">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact-main">
+        <div class="contact-us">
+            <h3>Contact Us</h3>
+            <p><strong>Botswana Chamber of Commerce</strong></p>
+            <p>Old Lobatse Road Street St</p>
+            <p>Gaborone, Botswana 77840</p>
+            <p>(+267)123-4567</p>
+        </div>
+        <div class="get-in-touch">
+            <h3>Get In Touch</h3>
+            <form class="contact-form">
+                <span class="pair">
+                <label for="firstname">First Name*</label>
+                <input class="contact-input" id="firstname" type="text" name="firstname" required>
+            </span>
+            <span class="pair">
+                <label for="lastname">Last Name*</label>
+                <input class="contact-input" id="lastname" type="text" name="lastname" required>
+            </span>
+            <span class="pair">
+                <label for="email">Email*</label>
+                <input class="contact-input" id="email" type="email" name="email" placeholder="example@website.com" required>
+            </span>
+            <span class="pair">
+                <label for="business-name">Business Name</label>
+                <input class="contact-input" id="business-name" type="text" name="business-name">
+            </span>
+            <span class="pair" id="question-span">
+                <label for="inquiry">What questions do you have for the Bots Business Station Chamber?</label>
+                <textarea id="inquiry"></textarea>
+            </span>
+                <input type="submit" id="submit-button">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://facebook.com" target="blank_" id="fb" class="social"><img src="images/fb-darkmode.png" alt="Facebook Logo" class="social"></a>
+                <a href="https://twitter.com" target="blank_" id="twt" class="social"><img src="images/twitter-dark.jpg" alt="Twitter Logo" class="social"></a>
+            </div>
+            <div class="footer-text">
+                <p id="copyright" class="topline"></p>
+                <p class="topline">Lame Diteko</p>
+                <p class="topline">WDD 230 Project</p>
+                
+            </div>
+            <p>Weather Data Sourced from OpenWeatherMap: <a href="https://openweathermap.org/" target="blank_">https://openweathermap.org/</a></p>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/contactform.js"></script>
+</body>
+</html>
