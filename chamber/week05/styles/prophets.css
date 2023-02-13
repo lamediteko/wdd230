@@ -1,0 +1,27 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+h1, h2, p {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, p, footer {
+    text-align: center;
+}
+
+section {
+    background-color: lightblue;
+    padding: 5px;
+    border: solid 5px turquoise;
+}
+
+img {
+    max-width: 100%;
+}
